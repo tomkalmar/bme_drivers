@@ -1,17 +1,3 @@
-"""
-
-
-
-TO PREVENT ANY INCIDENTS:
-    LAST EDITED: 2018.07.18.21:15 BY TAMAS
-IF YOU EDIT MODIFY THIS PLEASE
-
-
-
-
-"""
-
-
 
 from qcodes import VisaInstrument
 from qcodes.utils.validators import Numbers
