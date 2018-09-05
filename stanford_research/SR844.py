@@ -350,7 +350,7 @@ class SR844(VisaInstrument):
                                label='Aux output {}'.format(i),
                                get_cmd='AUXO? {}'.format(i),
                                get_parser=float,
-                               set_cmd='AUXV {0}, {{}}'.format(i),
+                               set_cmd='AUXO {0}, {{}}'.format(i),
                                unit='V')
 
         # Setup
